@@ -26,6 +26,14 @@ footer {
 	text-align: center;
 }
 
+.facebook-iframe {
+	border: 0;
+	overflow: hidden;
+	margin: 0;
+	width: 100px;
+	height: 21px;
+}
+
 /************************************************/
 /* Tablet */
 @media screen and (max-width:1000px) {
