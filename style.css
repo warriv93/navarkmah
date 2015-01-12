@@ -24,6 +24,8 @@
 /************************************************/
 /* Mobile platforms */
 @media screen and (max-width:450px) {
-
+	#slideshow {
+		display: none;
+	}
 
 }
