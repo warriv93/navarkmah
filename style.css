@@ -1,15 +1,29 @@
 /************************************************/
+/* General */
+.qtrans_flag {
+	height: 12px;
+	width: 18px;
+	display: block;
+}
 
+.qtrans_flag_sv {
+	background: url(http://www.navark.se/wp-content/plugins/qtranslate/flags/se.png) no-repeat;
+}
+
+.qtrans_flag_en {
+	background: url(http://www.navark.se/wp-content/plugins/qtranslate/flags/gb.png) no-repeat;
+}
+
+/************************************************/
+/* Tablet */
 @media screen and (max-width:1000px) {
-    
-    /* Tablet */
+
     
 }
 
 /************************************************/
-
+/* Mobile platforms */
 @media screen and (max-width:450px) {
 
-   /* Mobile platforms */
 
 }
