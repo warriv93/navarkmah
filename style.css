@@ -80,4 +80,8 @@ footer {
 		border-left: 0;
 		border-right: 0;
 	}
+
+	.panel-body > hr {
+		border-top: 1px solid #dddddd;
+	}
 }
