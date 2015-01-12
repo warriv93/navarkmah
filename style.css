@@ -14,6 +14,10 @@
 	background: url(http://www.navark.se/wp-content/plugins/qtranslate/flags/gb.png) no-repeat;
 }
 
+#wrapper {
+	margin: 0 auto;
+}
+
 /************************************************/
 /* Tablet */
 @media screen and (max-width:1000px) {
@@ -26,6 +30,21 @@
 @media screen and (max-width:450px) {
 	#slideshow {
 		display: none;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	#innerHeader > ul {
+		display: inline-block;
+	}
+
+	#innerHeader > ul > li {
+		display: inline-block;
+		list-style: none;
+		margin: 0;
+		padding: 0;
 	}
 
 }
