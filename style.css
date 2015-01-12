@@ -18,6 +18,14 @@
 	margin: 0 auto;
 }
 
+header {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
 /************************************************/
 /* Tablet */
 @media screen and (max-width:1000px) {
@@ -32,10 +40,6 @@
 		display: none;
 	}
 
-	header {
-		text-align: center;
-	}
-
 	#innerHeader > ul {
 		display: inline-block;
 	}
@@ -47,4 +51,19 @@
 		padding: 0;
 	}
 
+	#menu {
+		display: none;
+	}
+
+	footer {
+		max-width: 100%;
+	}
+
+	.footer-image {
+		width: 100%;
+	}
+
+	.footer-image > img {
+		width: 32.7%;
+	}
 }
