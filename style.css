@@ -48,6 +48,10 @@ footer {
 		display: none;
 	}
 
+	header {
+		border-bottom: 1px solid #DDDDDD;
+	}
+
 	#innerHeader > ul {
 		display: inline-block;
 	}
@@ -61,6 +65,7 @@ footer {
 
 	#menu {
 		display: none;
+		border-bottom: 1px solid #DDDDDD;
 	}
 
 	footer {
@@ -79,6 +84,7 @@ footer {
 		border-radius: 0;
 		border-left: 0;
 		border-right: 0;
+		border-top: 0;
 	}
 
 	.panel-body > hr {
