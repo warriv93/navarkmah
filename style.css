@@ -1,19 +1,5 @@
 /************************************************/
 /* General */
-.qtrans_flag {
-	height: 12px;
-	width: 18px;
-	display: block;
-}
-
-.qtrans_flag_sv {
-	background: url(http://www.navark.se/wp-content/plugins/qtranslate/flags/se.png) no-repeat;
-}
-
-.qtrans_flag_en {
-	background: url(http://www.navark.se/wp-content/plugins/qtranslate/flags/gb.png) no-repeat;
-}
-
 #wrapper {
 	margin: 0 auto;
 }
@@ -35,9 +21,14 @@ footer {
 }
 
 /************************************************/
-/* Tablet */
-@media screen and (max-width:1000px) and (min-width:450px) {
+/* Desktop */
+@media screen and (min-width: 1000px) {
 
+}
+
+/************************************************/
+/* Tablet */
+@media screen and (max-width: 1000px) and (min-width: 450px) {
     nav {
         position: fixed;
         float: left;
@@ -49,8 +40,8 @@ footer {
     }
 
     .sub-menu {
-        padding-left: 0;
         display: none;
+        padding-left: 0;
     }
 
     .menu-item {
@@ -94,7 +85,7 @@ footer {
 
 /************************************************/
 /* Mobile platforms */
-@media screen and (max-width:450px) {
+@media screen and (max-width: 450px) {
 	#slideshow {
 		display: none;
 	}
