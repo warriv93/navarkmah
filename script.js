@@ -1,7 +1,8 @@
 $(document).on("ready", init);
 
 function init() {
-
+    initMenu();
+    initOfflineReload();
 }
 
 function initMenu() {
