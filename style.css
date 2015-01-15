@@ -44,6 +44,11 @@ footer {
     .sub-menu > .menu-item {
         border-bottom: 0;
         border-top: 1px solid #DDDDDD;
+        background-color: #f8f8f8;
+    }
+
+    .sub-menu > .menu-item > ul > .menu-item{
+        background-color: #eaeaea;
     }
 
     .menu-item {
