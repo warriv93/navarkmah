@@ -1,0 +1,22 @@
+CACHE MANIFEST
+# 2015-01-15 v1.0.0
+
+FALLBACK:
+/ sidor/offline.html
+
+NETWORK:
+*
+
+CACHE:
+style.css
+script.js
+index.html
+jquery-2.1.3.min.js
+bootstrap/css/bootstrap-theme.min.css
+bootstrap/css/bootstrap.css.min.css
+bootstrap/js/bootstrap.min.js
+bootstrap/js/npm.js
+bootstrap/fonts/glyphicons-halflings-regular.eot
+bootstrap/fonts/glyphicons-halflings-regular.svg
+bootstrap/fonts/glyphicons-halflings-regular.ttf
+bootstrap/fonts/glyphicons-halflings-regular.woff

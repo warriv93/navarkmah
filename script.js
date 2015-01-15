@@ -1,6 +1,10 @@
 $(document).on("ready", init);
 
 function init() {
+
+}
+
+function initMenu() {
     $('.sub-menu').hide();
     $('.menu > li, ul.sub-menu > li').on("mouseenter", function () {
         $('> ul.sub-menu',this).slideToggle('slow');
@@ -29,5 +33,12 @@ function init() {
         if($("header img").attr("id") == "mobile") {
             $('.menu').slideToggle('slow');
         }
+    });
+}
+
+function initOfflineReload() {
+    $("#reloadOffline").on("click", function() {
+        var triedPage = document.baseURI;
+        window.location.replace(triedPage);
     });
 }
