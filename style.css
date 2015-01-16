@@ -16,6 +16,18 @@ footer {
 	height: 21px;
 }
 
+h1 {
+    font-size: 24px;
+    font-family: "Rosario";
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 16px;
+    font-family: "Rosario";
+    font-weight: bold;
+}
+
 /************************************************/
 /* Desktop */
 @media screen and (min-width: 1000px) {
